@@ -105,9 +105,6 @@ export default function WorkflowBuilders() {
               type: edge.type || "default",
             }));
 
-            console.log("🔄 Loading existing workflow:", matched.name);
-            console.log("🔄 Loading nodes:", reconstructedNodes);
-            console.log("🔄 Loading edges:", reconstructedEdges);
 
             setNodes(reconstructedNodes);
             setEdges(reconstructedEdges);
